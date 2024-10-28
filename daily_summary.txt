@@ -11,5 +11,16 @@ git status  //查看状态
 git diff   //查看修改
 
 git config --global user.name "your name"
-git congig --global user.email "your email"
+git config --global user.email "your email"
 
+git reflog  //用于记录用户的每一次命令
+git log  //查看提交记录
+git log --pretty=oneline  //查看提交记录
+/*提交记录的SHA码是唯一的,可用来追踪任何一次的提交,是commit id(版本号)*/
+
+git reset --hard HEAD^  //回到上一个版本已提交的状态
+git reset --mixed  //回退到上一个版本未提交的状态
+
+cat  //查看文件内容
+
+git checkout -- file  //撤销修改
