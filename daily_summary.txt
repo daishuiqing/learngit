@@ -4,9 +4,17 @@ mkdir learngit  //创建文件夹
 cd learngit  //进入文件夹
 pwd  //查看当前路径
 
+
+
 git init   //初始化git仓库
-git add    //添加文件
-git commit -m  //提交文件
+
+将文件添加到Git版本库，以下两步可以简单理解为：将需要提交的所有文件修改通通
+放到暂存区，然后再一次性提交暂存区的所有修改
+
+git add    //添加文件，实际上就是把文件修修改添加到暂存区（stage）
+git commit -m  //提交文件，实际上就是将暂存区的所有内容提交到当前分支
+
+
 git status  //查看状态
 git diff   //查看修改
 
