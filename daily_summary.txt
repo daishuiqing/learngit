@@ -1,0 +1,13 @@
+mkdir learngit  //创建文件夹
+cd learngit  //进入文件夹
+pwd  //查看当前路径
+
+git init   //初始化git仓库
+git add    //添加文件
+git commit -m  //提交文件
+git status  //查看状态
+git diff   //查看修改
+
+git config --global user.name "your name"
+git congig --global user.email "your email"
+
