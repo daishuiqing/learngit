@@ -3,3 +3,4 @@ it is not used during the build process
 git tranks changes
 
 git 跟踪并管理的是修改，而非文件
+let's do a test to verify it.
